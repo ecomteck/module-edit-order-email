@@ -1,0 +1,39 @@
+{
+    "name": "ecomteck/module-edit-order-email",
+    "description":"Magento 2 edit order email",
+    "keywords": [
+        "magento 2",
+        "edit order email",
+        "change order email",
+        "how to change order email",
+        "change email address",
+        "wrong order email"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+	"homepage": "https://www.ecomteck.com/",
+    "support": {
+        "email": "ecomteck@gmail.com",
+        "issues": "https://github.com/ecomteck/module-edit-order-email/issues"
+    },
+    "authors": [
+        {
+            "name": "Ecomteck",
+            "email": "ecomteck@gmail.com",
+            "homepage": "https://www.ecomteck.com/",
+            "role": "Owner"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ecomteck\\EditOrderEmail\\": ""
+        }
+    }
+}

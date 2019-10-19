@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Ecomteck LLC. All rights reserved.
+ * See COPYING.txt for license details.
+ * http://www.ecomteck.com | support@ecomteck.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="editorderemail" frontName="editorderemail">
+            <module name="Ecomteck_EditOrderEmail" before="Magento_Backend" />
+        </route>
+    </router>
+</config>

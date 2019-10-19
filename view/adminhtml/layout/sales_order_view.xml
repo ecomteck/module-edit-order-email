@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Ecomteck LLC. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Ecomteck_EditOrderEmail::css/email-popup.css" media="all" />
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Ecomteck\EditOrderEmail\Block\Adminhtml\Email\Edit" name="ecomteck_email_edit"
+                   template="Ecomteck_EditOrderEmail::email.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
